@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D7F9DA319ED9C6400C5C2EC /* CreditCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7F9DA019ED9C6400C5C2EC /* CreditCard.m */; };
+		0D7F9DA419ED9C6400C5C2EC /* CreditCardPackageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7F9DA219ED9C6400C5C2EC /* CreditCardPackageModel.m */; };
+		0D7F9DA719EDA3BB00C5C2EC /* AddCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7F9DA619EDA3BB00C5C2EC /* AddCardViewController.m */; };
+		0D81833119EDCB6E00B90EA6 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D81833019EDCB6E00B90EA6 /* OrderViewController.m */; };
+		0D81833519EDCD9800B90EA6 /* OrderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D81833419EDCD9800B90EA6 /* OrderViewModel.m */; };
+		1B66585509F7DB7C3E287E66 /* libPods-TableViewTwo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 287CA52756389D8BB55BCAF0 /* libPods-TableViewTwo.a */; };
+		D22B2A76E685CBCBBFFFCB96 /* libPods-TableViewTwoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BD367A9CC2287E63AB138C /* libPods-TableViewTwoTests.a */; };
 		FB5E437D19ECEA8200B40F17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5E437C19ECEA8200B40F17 /* main.m */; };
 		FB5E438019ECEA8200B40F17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5E437F19ECEA8200B40F17 /* AppDelegate.m */; };
 		FB5E438319ECEA8200B40F17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5E438219ECEA8200B40F17 /* ViewController.m */; };
@@ -27,6 +34,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D7F9D9F19ED9C6400C5C2EC /* CreditCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreditCard.h; path = ../../CreditCardModel/CreditCardModel/CreditCard.h; sourceTree = "<group>"; };
+		0D7F9DA019ED9C6400C5C2EC /* CreditCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreditCard.m; path = ../../CreditCardModel/CreditCardModel/CreditCard.m; sourceTree = "<group>"; };
+		0D7F9DA119ED9C6400C5C2EC /* CreditCardPackageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreditCardPackageModel.h; path = ../../CreditCardModel/CreditCardModel/CreditCardPackageModel.h; sourceTree = "<group>"; };
+		0D7F9DA219ED9C6400C5C2EC /* CreditCardPackageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreditCardPackageModel.m; path = ../../CreditCardModel/CreditCardModel/CreditCardPackageModel.m; sourceTree = "<group>"; };
+		0D7F9DA519EDA3BB00C5C2EC /* AddCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCardViewController.h; sourceTree = "<group>"; };
+		0D7F9DA619EDA3BB00C5C2EC /* AddCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCardViewController.m; sourceTree = "<group>"; };
+		0D81832F19EDCB6E00B90EA6 /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
+		0D81833019EDCB6E00B90EA6 /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
+		0D81833319EDCD9800B90EA6 /* OrderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewModel.h; sourceTree = "<group>"; };
+		0D81833419EDCD9800B90EA6 /* OrderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewModel.m; sourceTree = "<group>"; };
+		287CA52756389D8BB55BCAF0 /* libPods-TableViewTwo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableViewTwo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0FD6ECD44D186DCE13AF49 /* Pods-TableViewTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewTwo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewTwo/Pods-TableViewTwo.debug.xcconfig"; sourceTree = "<group>"; };
+		85C82963DB0410B505046A51 /* Pods-TableViewTwoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewTwoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewTwoTests/Pods-TableViewTwoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6A5027B7C4B84DBDB5375B8 /* Pods-TableViewTwoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewTwoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewTwoTests/Pods-TableViewTwoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D72AD633E3DC464F8E67C50E /* Pods-TableViewTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewTwo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewTwo/Pods-TableViewTwo.release.xcconfig"; sourceTree = "<group>"; };
+		D9BD367A9CC2287E63AB138C /* libPods-TableViewTwoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableViewTwoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5E437719ECEA8200B40F17 /* TableViewTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5E437B19ECEA8200B40F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5E437C19ECEA8200B40F17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B66585509F7DB7C3E287E66 /* libPods-TableViewTwo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +78,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D22B2A76E685CBCBBFFFCB96 /* libPods-TableViewTwoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D81833219EDCD6E00B90EA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0D81833319EDCD9800B90EA6 /* OrderViewModel.h */,
+				0D81833419EDCD9800B90EA6 /* OrderViewModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		636261CFF11D43CACD3AD30A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				287CA52756389D8BB55BCAF0 /* libPods-TableViewTwo.a */,
+				D9BD367A9CC2287E63AB138C /* libPods-TableViewTwoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6ACDDC92C82FF3A705C10C79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E0FD6ECD44D186DCE13AF49 /* Pods-TableViewTwo.debug.xcconfig */,
+				D72AD633E3DC464F8E67C50E /* Pods-TableViewTwo.release.xcconfig */,
+				85C82963DB0410B505046A51 /* Pods-TableViewTwoTests.debug.xcconfig */,
+				B6A5027B7C4B84DBDB5375B8 /* Pods-TableViewTwoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FB5E436E19ECEA8200B40F17 = {
 			isa = PBXGroup;
 			children = (
 				FB5E437919ECEA8200B40F17 /* TableViewTwo */,
 				FB5E439319ECEA8200B40F17 /* TableViewTwoTests */,
 				FB5E437819ECEA8200B40F17 /* Products */,
+				6ACDDC92C82FF3A705C10C79 /* Pods */,
+				636261CFF11D43CACD3AD30A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +137,20 @@
 		FB5E437919ECEA8200B40F17 /* TableViewTwo */ = {
 			isa = PBXGroup;
 			children = (
+				0D81833219EDCD6E00B90EA6 /* Model */,
 				FB5E437E19ECEA8200B40F17 /* AppDelegate.h */,
 				FB5E437F19ECEA8200B40F17 /* AppDelegate.m */,
 				FB5E438119ECEA8200B40F17 /* ViewController.h */,
 				FB5E438219ECEA8200B40F17 /* ViewController.m */,
+				0D7F9D9F19ED9C6400C5C2EC /* CreditCard.h */,
+				0D7F9DA019ED9C6400C5C2EC /* CreditCard.m */,
+				0D7F9DA119ED9C6400C5C2EC /* CreditCardPackageModel.h */,
+				0D7F9DA219ED9C6400C5C2EC /* CreditCardPackageModel.m */,
 				FB5E438419ECEA8200B40F17 /* Main.storyboard */,
+				0D81832F19EDCB6E00B90EA6 /* OrderViewController.h */,
+				0D81833019EDCB6E00B90EA6 /* OrderViewController.m */,
+				0D7F9DA519EDA3BB00C5C2EC /* AddCardViewController.h */,
+				0D7F9DA619EDA3BB00C5C2EC /* AddCardViewController.m */,
 				FB5E438719ECEA8200B40F17 /* Images.xcassets */,
 				FB5E438919ECEA8200B40F17 /* LaunchScreen.xib */,
 				FB5E437A19ECEA8200B40F17 /* Supporting Files */,
@@ -126,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB5E439A19ECEA8200B40F17 /* Build configuration list for PBXNativeTarget "TableViewTwo" */;
 			buildPhases = (
+				6D6833ACC62C65FE0715935D /* Check Pods Manifest.lock */,
 				FB5E437319ECEA8200B40F17 /* Sources */,
 				FB5E437419ECEA8200B40F17 /* Frameworks */,
 				FB5E437519ECEA8200B40F17 /* Resources */,
+				76F21B7D0F9A38B56325879F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB5E439D19ECEA8200B40F17 /* Build configuration list for PBXNativeTarget "TableViewTwoTests" */;
 			buildPhases = (
+				7AC675A1EC1412E910A87894 /* Check Pods Manifest.lock */,
 				FB5E438C19ECEA8200B40F17 /* Sources */,
 				FB5E438D19ECEA8200B40F17 /* Frameworks */,
 				FB5E438E19ECEA8200B40F17 /* Resources */,
+				51C408C86830552A10C386DB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +237,7 @@
 				TargetAttributes = {
 					FB5E437619ECEA8200B40F17 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 952ZU65CH6;
 					};
 					FB5E438F19ECEA8200B40F17 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -214,12 +284,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51C408C86830552A10C386DB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewTwoTests/Pods-TableViewTwoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D6833ACC62C65FE0715935D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		76F21B7D0F9A38B56325879F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewTwo/Pods-TableViewTwo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AC675A1EC1412E910A87894 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB5E437319ECEA8200B40F17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FB5E438319ECEA8200B40F17 /* ViewController.m in Sources */,
+				0D7F9DA419ED9C6400C5C2EC /* CreditCardPackageModel.m in Sources */,
+				0D7F9DA719EDA3BB00C5C2EC /* AddCardViewController.m in Sources */,
+				0D81833519EDCD9800B90EA6 /* OrderViewModel.m in Sources */,
+				0D7F9DA319ED9C6400C5C2EC /* CreditCard.m in Sources */,
+				0D81833119EDCB6E00B90EA6 /* OrderViewController.m in Sources */,
 				FB5E438019ECEA8200B40F17 /* AppDelegate.m in Sources */,
 				FB5E437D19ECEA8200B40F17 /* main.m in Sources */,
 			);
@@ -341,8 +479,10 @@
 		};
 		FB5E439B19ECEA8200B40F17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E0FD6ECD44D186DCE13AF49 /* Pods-TableViewTwo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TableViewTwo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,8 +491,10 @@
 		};
 		FB5E439C19ECEA8200B40F17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72AD633E3DC464F8E67C50E /* Pods-TableViewTwo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TableViewTwo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,6 +503,7 @@
 		};
 		FB5E439E19ECEA8200B40F17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C82963DB0410B505046A51 /* Pods-TableViewTwoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -380,6 +523,7 @@
 		};
 		FB5E439F19ECEA8200B40F17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6A5027B7C4B84DBDB5375B8 /* Pods-TableViewTwoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -412,6 +556,7 @@
 				FB5E439C19ECEA8200B40F17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB5E439D19ECEA8200B40F17 /* Build configuration list for PBXNativeTarget "TableViewTwoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +565,7 @@
 				FB5E439F19ECEA8200B40F17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
